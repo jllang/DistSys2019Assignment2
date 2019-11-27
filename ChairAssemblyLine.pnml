@@ -70,11 +70,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>frontLegs</text>
         <graphics>
-          <offset x="600" y="70"/>
+          <offset x="510" y="70"/>
         </graphics>
       </name>
       <graphics>
-        <position x="600" y="90"/>
+        <position x="510" y="90"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -85,11 +85,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>backLegs</text>
         <graphics>
-          <offset x="780" y="70"/>
+          <offset x="870" y="70"/>
         </graphics>
       </name>
       <graphics>
-        <position x="780" y="90"/>
+        <position x="870" y="90"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -176,7 +176,7 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
     </place>
     <transition id="t4">
       <name>
-        <text>leg</text>
+        <text>stage2</text>
         <graphics>
           <offset x="600" y="250"/>
         </graphics>
@@ -193,7 +193,7 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
     </transition>
     <transition id="t5">
       <name>
-        <text>leg</text>
+        <text>stage3</text>
         <graphics>
           <offset x="780" y="250"/>
         </graphics>
@@ -210,7 +210,7 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
     </transition>
     <transition id="t6">
       <name>
-        <text>leg</text>
+        <text>stage4</text>
         <graphics>
           <offset x="960" y="250"/>
         </graphics>
@@ -227,9 +227,9 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
     </transition>
     <transition id="t9">
       <name>
-        <text>crossbar</text>
+        <text>stage6</text>
         <graphics>
-          <offset x="510" y="360"/>
+          <offset x="510" y="300"/>
         </graphics>
       </name>
       <graphics>
@@ -244,7 +244,7 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
     </transition>
     <transition id="t10">
       <name>
-        <text>crossbar</text>
+        <text>stage7</text>
         <graphics>
           <offset x="690" y="360"/>
         </graphics>
@@ -261,9 +261,9 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
     </transition>
     <transition id="t12">
       <name>
-        <text>cushion</text>
+        <text>stage8</text>
         <graphics>
-          <offset x="870" y="360"/>
+          <offset x="870" y="300"/>
         </graphics>
       </name>
       <graphics>
@@ -278,9 +278,9 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
     </transition>
     <transition id="t11">
       <name>
-        <text>crossbar</text>
+        <text>stage5</text>
         <graphics>
-          <offset x="310" y="360"/>
+          <offset x="310" y="300"/>
         </graphics>
       </name>
       <graphics>
@@ -295,7 +295,7 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
     </transition>
     <transition id="t3">
       <name>
-        <text>leg</text>
+        <text>stage1</text>
         <graphics>
           <offset x="410" y="250"/>
         </graphics>
@@ -543,7 +543,7 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
     </arc>
     <arc id="a29" source="t12" target="p15">
       <inscription>
-        <text>9</text>
+        <text>1</text>
         <graphics>
           <offset x="500.0" y="-12.0"/>
         </graphics>
