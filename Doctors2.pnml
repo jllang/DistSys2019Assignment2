@@ -7,11 +7,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>coffeeRoom</text>
         <graphics>
-          <offset x="1050" y="340"/>
+          <offset x="1040" y="300"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1050" y="300"/>
+        <position x="990" y="290"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -37,7 +37,7 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>waitingRoom</text>
         <graphics>
-          <offset x="600" y="330"/>
+          <offset x="640" y="300"/>
         </graphics>
       </name>
       <graphics>
@@ -49,7 +49,7 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>examination1</text>
         <graphics>
-          <offset x="800" y="200"/>
+          <offset x="790" y="200"/>
         </graphics>
       </name>
       <graphics>
@@ -61,7 +61,7 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>examination2</text>
         <graphics>
-          <offset x="800" y="470"/>
+          <offset x="790" y="410"/>
         </graphics>
       </name>
       <graphics>
@@ -73,7 +73,7 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>free1</text>
         <graphics>
-          <offset x="800" y="290"/>
+          <offset x="840" y="260"/>
         </graphics>
       </name>
       <graphics>
@@ -88,7 +88,7 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>free2</text>
         <graphics>
-          <offset x="800" y="380"/>
+          <offset x="840" y="350"/>
         </graphics>
       </name>
       <graphics>
@@ -135,7 +135,7 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
     </transition>
     <transition id="t1">
       <name>
-        <text>t1</text>
+        <text>appointment</text>
         <graphics>
           <offset x="510" y="330"/>
         </graphics>
@@ -154,7 +154,7 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>entry1</text>
         <graphics>
-          <offset x="700" y="200"/>
+          <offset x="700" y="140"/>
         </graphics>
       </name>
       <graphics>
@@ -171,7 +171,7 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>exit1</text>
         <graphics>
-          <offset x="890" y="200"/>
+          <offset x="890" y="140"/>
         </graphics>
       </name>
       <graphics>
@@ -291,7 +291,9 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
           <offset x="500.0" y="-12.0"/>
         </graphics>
       </inscription>
-      <graphics/>
+      <graphics>
+        <position x="790" y="320"/>
+      </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -391,7 +393,9 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
           <offset x="500.0" y="-12.0"/>
         </graphics>
       </inscription>
-      <graphics/>
+      <graphics>
+        <position x="790" y="300"/>
+      </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
