@@ -214,11 +214,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>B2C'</text>
         <graphics>
-          <offset x="1240" y="340"/>
+          <offset x="1250" y="500"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1235" y="302"/>
+        <position x="1247" y="464"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -238,11 +238,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>B2C</text>
         <graphics>
-          <offset x="1250" y="490"/>
+          <offset x="1260" y="380"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1240" y="442"/>
+        <position x="1252" y="329"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -505,7 +505,7 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
     </transition>
     <transition id="t19">
       <name>
-        <text>t19</text>
+        <text/>
         <graphics>
           <offset x="610" y="250"/>
         </graphics>
@@ -522,7 +522,7 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
     </transition>
     <transition id="t20">
       <name>
-        <text>t20</text>
+        <text/>
         <graphics>
           <offset x="540" y="80"/>
         </graphics>
