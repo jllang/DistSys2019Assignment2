@@ -162,6 +162,24 @@
 		    	\label{fig2}
     		\end{figure}
     	\item
-    \end{enumerate}
-
+    		We produced a reachability graph of the second Petri net in this exercise
+    		by using WoPed. The result can be found in the bitmap image
+    		\texttt{Question2.png}. As the reachability graph shows, all of the 17
+    		markings reachable from the initial marking belong to the same strongly
+    		connected graph (component). This Petri net is at least $L_2$-live,
+    		because every transition can be fired arbitrarily often, as the
+    		reachability graph shows.
+    		
+    		Consider the vertex ``\texttt{( p1 p3 p6...}``. All cycles in the
+    		reachability graph pass through it. The only incoming edge to this
+    		vertex is labeled $t_3$, which means that all cycles have to contain
+    		$t_3$, making $t_3$ satisfy $L_3$-liveness. This vertex has two outgoing
+    		edges labeled $t_1$ and $t_4$. The destination of the latter has only one
+    		outgoing edge, labeled as $t_1$. Thus, the transition $t_1$ also satisfies
+    		$L_3$-liveness. A similar argument starting from the vertex
+    		``\texttt{( p1 p3 p6...}`` on the bottom-right side of the reachability
+    		graph shows that $t_5$ is also $L_3$ live. It can be reasoned further,
+    		that $t_2$ and $t_4$ are also $L_3$-live, by considering one step farther
+    		in the reachability graph.
+	\end{enumerate}
 \end{document}
