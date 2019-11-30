@@ -482,9 +482,9 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
         <dimension x="1905" y="718"/>
       </bounds>
       <scale>100</scale>
-      <treeWidthRight>1538</treeWidthRight>
+      <treeWidthRight>1585</treeWidthRight>
       <overviewPanelVisible>true</overviewPanelVisible>
-      <treeHeightOverview>100</treeHeightOverview>
+      <treeHeightOverview>50</treeHeightOverview>
       <treePanelVisible>true</treePanelVisible>
       <verticalLayout>false</verticalLayout>
       <resources/>
