@@ -1,0 +1,1 @@
+We can't model this witness statement problem using Petri net because we don't know how many witnesses will be claimed for one claim. So without deciding the numkber of tokens in the witnesses per claim, we can't check when the all the witnesses are contacted or not to send them the report.
