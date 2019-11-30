@@ -25,6 +25,7 @@ The traffic lights should turn in the following cycle of *configurations*:
 - `A`: All the lights are red, except for `GNF` and `GSF`.
 - `B`: All the lights are red, except for `GSR` and `GEL`.
 - `C`: All the lights are red, except for `GNF` and `GNL`.
+
 For orchestrating the cycle, we added seven synchronisation places, also named 
 with three letters: The first letter denotes the source configuration, the and
 the third letter denotes the target configuration. There are also primed
@@ -36,4 +37,10 @@ the `A2B` transition.
 
 ## Capacity Model
 
-
+Modeling the capacity constraints for different road seemed very challenging as
+to our knowledge standard Petri nets are incapable of performing arithmetics. We
+tried adding places to count the number of cars moving through different lanes.
+These places follow the naming convention `<direction>2<direction>`, where
+direction is one of `N`, `S`, or `E` as in the synchronisation model. The places
+`F,F+R,_`, `_,R,L`, and `F+L,_,_` correspond with the configurations `A`, `B`,
+and `C` respectively in the synchronisation model.
