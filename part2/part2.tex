@@ -271,8 +271,38 @@
     				\end{align*}
     				Therefore, the length of the shortest firing sequences leading to the
     				marking where all odd-numubered places have a token is 7.
+    				
+    			\item
+    				Following the approach described above, for the shortest firing
+    				sequence leading to the marking that puts tokens in odd-numbered places
+    				starts with any permutation of $t_2$, $t_4$, and $t_6$ followed by the
+    				firing sequence
+    				\begin{align*}
+    				    t_1, t_3, t_5, t_1, t_2, t_1, t_3, t_4, t_1, t_2, t_1, t_3, t_1, t_2, t_1.
+    				\end{align*}
+    				All of these six shortest paths have length 18.
     		\end{enumerate}
     	\item
-   			
+   			To mark the odd-numbered places in the $n$th member, the following
+   			algorithm can be used:
+   			\begin{itemize}
+   				\item
+   					The two places with the highest indices have to be marked in the $n$th 
+   					member by firing the transition $t_{2n}$.
+   				\item
+   					Also, the transitions $t_{2n-2}$ and $t_{2n-3}$ must be fired.
+   				\item
+   					After performing the previous two steps, firing the transition
+   					$t_{2n-1}$ marks the odd-numbered places in the $n$th member.
+			\end{itemize}   			
+			There are two possible firing sequences that accomplish
+   			the desired marking:
+   			\begin{align*}
+   				t_{2n}, t_{2n-2}, t_{2n-3}, t_{2n-1} \\
+   				t_{2n-2}, t_{2n-3}, t_{2n}, t_{2n-1}
+   			\end{align*}
+   			Repeating this algorithm for all members in decreasing order produces a
+   			shortest firing sequence to a marking with tokens in all odd-numbered
+   			places.
    	\end{enumerate}
 \end{document}
