@@ -187,11 +187,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>A2B</text>
         <graphics>
-          <offset x="570" y="790"/>
+          <offset x="560" y="790"/>
         </graphics>
       </name>
       <graphics>
-        <position x="572" y="732"/>
+        <position x="559" y="732"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -226,11 +226,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>A2B'</text>
         <graphics>
-          <offset x="570" y="530"/>
+          <offset x="560" y="530"/>
         </graphics>
       </name>
       <graphics>
-        <position x="567" y="482"/>
+        <position x="554" y="482"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -250,11 +250,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>B2C_OR_C2A</text>
         <graphics>
-          <offset x="400" y="80"/>
+          <offset x="390" y="80"/>
         </graphics>
       </name>
       <graphics>
-        <position x="410" y="105"/>
+        <position x="397" y="105"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -262,11 +262,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>C2A</text>
         <graphics>
-          <offset x="660" y="80"/>
+          <offset x="560" y="80"/>
         </graphics>
       </name>
       <graphics>
-        <position x="655" y="37"/>
+        <position x="555" y="37"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -274,11 +274,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>C2A'</text>
         <graphics>
-          <offset x="570" y="380"/>
+          <offset x="560" y="380"/>
         </graphics>
       </name>
       <graphics>
-        <position x="567" y="330"/>
+        <position x="554" y="330"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -507,11 +507,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text/>
         <graphics>
-          <offset x="610" y="250"/>
+          <offset x="460" y="220"/>
         </graphics>
       </name>
       <graphics>
-        <position x="610" y="212"/>
+        <position x="460" y="174"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -524,11 +524,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text/>
         <graphics>
-          <offset x="540" y="80"/>
+          <offset x="480" y="80"/>
         </graphics>
       </name>
       <graphics>
-        <position x="530" y="35"/>
+        <position x="467" y="35"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
